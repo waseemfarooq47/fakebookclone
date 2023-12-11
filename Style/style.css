@@ -1,0 +1,279 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+  background-color: #F0F2F5;
+  
+
+}
+
+.container{
+  padding:0 15%
+}
+
+main{
+  display: flex;
+}
+
+.left-section{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  flex-direction: column;
+  height:85vh;
+  width: 50%;
+  /* border:1px solid black; */
+  padding-top: 90px;
+}
+
+.logo{
+  width: 100%;
+}
+
+.logo img{
+  height: 70px;
+}
+
+.recent-logins{
+  width:100%;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.recent-logins h2{
+  font-size: 40px;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.recent-logins small{
+  color: #606770;
+  font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  
+}
+
+.small-cards{
+  display: flex;
+  gap:20px;
+  width: 100%;
+  padding-left: 20px;
+  margin-top: 40px;
+}
+
+.small-cards .card{
+  width: 160px;
+  height: 180px;
+  border-radius: 10px;
+  background-color: #f5f6f7;
+  box-shadow: 0 0 0 1px #dddfe2;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.small-cards .card:hover{
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+.small-cards .card .card-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 140px;
+  overflow: hidden;
+}
+
+.small-cards .card .card-image img{
+  width: 100%;
+  height: 100%;
+}
+.small-cards .card .card-image i{
+  color: #1877F2;
+  font-size: 45px;
+}
+
+.small-cards .card .card-footer{
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-transform: capitalize;
+}
+
+.card-footer a{
+  text-decoration: none;
+  color: #1877F2;
+}
+
+
+.right-section{
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center;
+  flex-direction: column;
+  height:85vh;
+  width:50%;
+  padding-top: 180px;
+  /* border:1px solid black; */
+}
+
+.right-section .form-cover{
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+  box-sizing: border-box;
+  margin: 40px 0 0;
+  padding: 20px 0 28px;
+  width: 396px;
+  margin: 0 auto;
+
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form .input{
+  font-size: 17px;
+  width: 364px;
+  border: 1px solid #dddfe2;
+  color: #1d2129;
+  font-family: Helvetica, Arial, sans-serif;
+  height: 50px;
+  line-height: 16px;
+  padding: 0 8px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  border-color: #dddfe2;
+}
+
+::placeholder{
+  color: #d0d1d4;
+}
+
+
+.login{
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  width: 364px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  color: #fff;
+  background-color: #1877f2;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.forgot-password{
+  color: #1877F2;
+  text-decoration: none;
+  margin-top: 25px;
+}
+
+.create-account{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+
+.below-tag{
+  margin-top: 30px;
+}
+
+.below-tag span{
+  font-size: 14px;
+}
+
+hr{
+  width: 364px;
+  margin: 0 auto;
+  border:1px solid  #f3f3f3;
+}
+
+.li-seperator{
+  width: 100% !important;
+}
+
+.create-account button{
+  margin-top: 25px;
+  width: 364px;
+  background-color: #42b72a;
+  height: 45px;
+  width: 280px;
+  font-weight: 600;
+  font-size: 17px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.create-account button a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+
+
+footer{
+  /* position: fixed;
+  bottom: 0; */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+  height: 180px;
+  padding:0 15%
+}
+
+footer .uiList{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+
+footer .list-2{
+  margin-top: 30px;
+}
+footer .list-3{
+  margin-top: 10px;
+}
+
+footer .uiList li{
+  display: flex;
+  list-style: none;
+  padding: 0 20px 10px 0;
+}
+
+footer .uiList li a{
+  text-decoration: none;
+  font-size: 12px;
+  color:#8a8d91;
+}
